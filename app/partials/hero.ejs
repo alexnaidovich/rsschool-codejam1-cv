@@ -1,0 +1,73 @@
+<div class="hero" id="hero">
+    <div class="avatar">
+        <img src="/assets/images/avatar.JPG" alt="Avatar">
+    </div>
+    <section>
+        <h1>
+            <%- info.name.split(' ')[0] %><br>
+            <span><%- info.name.split(' ')[1] %></span>
+        </h1>
+        
+        <table class="desc">
+            <tbody>
+                <tr>
+                    <td class="desc--key">Age</td>
+                    <td class="desc--value"><%= info.age %></td>
+                </tr>
+                <tr>
+                    <td class="desc--key">html</td>
+                    <td class="desc--value">
+                        <% info.skills.HTML.forEach(function(s) { %>
+                            <span><%= s %></span>
+                        <% }) %>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc--key">CSS</td>
+                    <td class="desc--value">
+                    <% info.skills.CSS.forEach(function(s) { %>
+                        <span><%= s %></span>
+                    <% }) %></td>
+                </tr>
+                <tr>
+                    <td class="desc--key">JS</td>
+                    <td class="desc--value">
+                        <% info.skills.JS.forEach(function(s) { %>
+                            <span><%= s %></span>
+                        <% }) %>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc--key">tools</td>
+                    <td class="desc--value">
+                        <% info.tools.forEach(function(s) { %>
+                            <span><%= s %></span>
+                        <% }) %>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc--key">courses</td>
+                    <td class="desc--value">
+                        <% info.courses.forEach(function(s) { %>
+                            <span><%= s %></span>
+                        <% }) %>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc--key">current employment status</td>
+                    <td class="desc--value">
+                        <%= info.status %>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="desc--key">Relevant experience</td>
+                    <td class="desc--value">
+                        <%= info.exp.company %><br>
+                        <span><%= info.exp.time %></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</div>
+<!-- /#hero.hero -->

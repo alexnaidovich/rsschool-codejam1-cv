@@ -16,15 +16,11 @@ html {
 body {
   height: 100%;
   min-height: 100vh;
+  padding-top: 90px;
   font-family: $main-font, Arial, Helvetica, sans-serif;
   position: relative;
+  background-color: $page-lightgrey;
   color: $main-text-color;  
-}
-
-.hidden--nav-index {
-  position: absolute;
-  visibility: hidden;
-  font-size: 0px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -114,21 +110,13 @@ p {
   }
 }
 
-.page-main-container {
+.wrapper {
   @include container;
-  padding-top: 15px;
-  @include flex(space-between, flex-start, row, wrap);
+  padding: 40px 15px 20px;
 }
 
 .float-right {
   float: right;
-}
-
-.divider-full-width {
-  width: 100%;
-  height: 1px;
-  margin-top: 30px;
-  border-bottom: 1px solid $border-stroke;
 }
 
 /* end COMMON STYLES

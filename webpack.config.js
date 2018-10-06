@@ -12,6 +12,11 @@ const dirAssets = path.join(__dirname, 'assets');
 const appHtmlTitle = 'Alex Naidovich - RS School - 2018Q3 - Code Jam #1';
 
 /**
+ * Required Constants
+ */
+const INFO = require(path.join(dirApp, 'constants', 'INFO'));
+
+/**
  * Webpack Configuration
  */
 const CONFIG = {
@@ -34,7 +39,8 @@ const CONFIG = {
             template: '!!ejs-compiled-loader!./index.ejs',
             filename: 'index.html',
             title: appHtmlTitle,
-            // favicon: path.join(__dirname, 'favicon.ico')
+            favicon: path.join(__dirname, 'favicon.ico'),
+            info: INFO
         })
     ],
     module: {
