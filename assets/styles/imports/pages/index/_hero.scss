@@ -1,6 +1,7 @@
 .hero {
     width: 100%;
     @include flex(space-between, flex-start, n, n);
+    margin-bottom: 40px;
 
     section {
         width: 60%;

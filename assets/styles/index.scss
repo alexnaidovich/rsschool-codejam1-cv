@@ -2,6 +2,7 @@
 
 @import 'imports/lib/normalize';
 @import 'imports/lib/flex';
+@import 'imports/lib/flickity';
 
 // Fonts
 
@@ -30,3 +31,4 @@ html {
 // @import 'imports/footer';
 
 @import 'imports/pages/index/hero';
+@import 'imports/pages/index/slider';

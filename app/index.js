@@ -6,3 +6,6 @@ import 'styles/index.scss';
 // ================================
 // START YOUR APP HERE
 // ================================
+const Flickity = require('flickity');
+
+const pfSlider = new Flickity('#portfolio');
