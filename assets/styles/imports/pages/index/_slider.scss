@@ -1,20 +1,22 @@
 .pf-slider {
+    margin-bottom: 50px;
     h2 {text-align: right;}
 }
 
 .slider-wrapper {
     width: 100%;
-    max-height: 400px;
+    max-height: 280px;
 
-    .slide {width: 100%;}
+    .slide {width: 100%; min-width: 1024px;}
 }
 
 .slide-content {
     @include flex(space-around, flex-start, n, n);
+    padding: 15px 50px;
     .slide-img {
-        height: 400px;
+        height: 280px;
         width: 350px;
-        @include flex(center, center, n, n) ;
+        @include flex(center, flex-start, n, n) ;
         
         img {
             max-width: 100%; max-height: 100%;

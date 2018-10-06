@@ -11,18 +11,20 @@ module.exports = [{
     link: 'https://www.truck1.eu/tractor-units',
     iframeSrc: 'https://alexnaidovich.github.io/test-data'
 }, {
-    title: '',
-    desc: '',
-    link: '',
-    imgSrc: ''
+    title: 'Raccoonblog - RS 2018-Q1',
+    desc: ['Responsive layout.', `Made in two variants: <a href="https://github.com/alexnaidovich/CSS-Recipes-And-Layouts">Flexbox model</a> and <a href="https://github.com/alexnaidovich/CSS-Recipes-Layouts-Grid-Rework">Grid Layout model</a>.`,
+    'Minimal JS.'],
+    link: 'https://github.com/alexnaidovich/CSS-Recipes-Layouts-Grid-Rework',
+    imgSrc: 'raccoonblog.jpg'
 }, {
-    title: '',
-    desc: '',
-    link: '',
-    imgSrc: ''
+    title: 'Match-Match Game - RS 2018-Q1',
+    desc: ['First really serious JS task from RS School (2018-Q1).',
+    'First experience in something like gamedev.'],
+    link: 'https://alexnaidovich.github.io/Match-Match-Game/',
+    imgSrc: 'match.jpg'
 }, {
-    title: '',
-    desc: '',
-    link: '',
-    imgSrc: ''
+    title: 'Lambda - RS 2018-Q1',
+    desc: ['First layout task from RS School (2018-Q1).', 'Static layout, no responsiveness.', 'Minimal JS.'],
+    link: 'https://alexnaidovich.github.io/Lambda-Restaurant/',
+    imgSrc: 'lambda.jpg'
 }]

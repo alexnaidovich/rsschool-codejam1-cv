@@ -8,4 +8,8 @@ import 'styles/index.scss';
 // ================================
 const Flickity = require('flickity');
 
-const pfSlider = new Flickity('#portfolio');
+window.onload = () => {
+    const pfSlider = new Flickity('#portfolio', {
+        cellAlign: 'left',
+    });
+}
