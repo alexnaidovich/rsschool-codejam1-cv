@@ -28,7 +28,8 @@ html {
 
 @import 'imports/main';
 @import 'imports/header';
-// @import 'imports/footer';
 
+// Page Specific Styles
 @import 'imports/pages/index/hero';
 @import 'imports/pages/index/slider';
+@import 'imports/pages/index/contacts';

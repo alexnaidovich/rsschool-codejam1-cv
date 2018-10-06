@@ -38,6 +38,14 @@
                     </td>
                 </tr>
                 <tr>
+                    <td class="desc--key">Other</td>
+                    <td class="desc--value">
+                        <% info.skills.misc.forEach(function(s) { %>
+                            <span><%= s %></span>
+                        <% }) %>
+                    </td>
+                </tr>
+                <tr>
                     <td class="desc--key">tools</td>
                     <td class="desc--value">
                         <% info.tools.forEach(function(s) { %>
@@ -51,12 +59,6 @@
                         <% info.courses.forEach(function(s) { %>
                             <span><%= s %></span>
                         <% }) %>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="desc--key">current employment status</td>
-                    <td class="desc--value">
-                        <%= info.status %>
                     </td>
                 </tr>
                 <tr>

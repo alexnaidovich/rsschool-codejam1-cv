@@ -23,7 +23,6 @@ module.exports = {
         'Rolling Scopes (JS advanced, Git, etc; 2018)',
         'Various sources (Habr, Medium, CSS Tricks etc) via Telegram frontend channels I\'m subscribed on'
     ],
-    status: 'Employed',
     exp: {
         company: 'WebMarketing, Private Enterprise',
         time: 'May 2018 - present'
