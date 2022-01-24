@@ -1,0 +1,122 @@
+/* ************* 
+// COMMON STYLES
+// *************/
+
+html, body {
+  width: 100%;
+  min-width: 100vw;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 16px;
+  max-width: 100vw;
+}
+
+body {
+  height: 100%;
+  min-height: 100vh;
+  font-family: $main-font, Arial, Helvetica, sans-serif;
+  position: relative;
+  background-color: $page-lightgrey;
+  color: $main-text-color;  
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $main-family;
+  color: $heading-color;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  &.full-width {
+    width: 100%;
+  }
+}
+
+h1 {
+  font-size: 45px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.8035714px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.3272727px;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+h5 {
+  font-weight: 400;
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h6 {
+  font-size: 1em;
+  margin: 0;
+  color: $heading-color;
+  line-height: 1em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.col-quat {
+  width: 24%;
+  max-width: 270px;
+}
+
+.col-three-quat {
+  width: 74%;
+  max-width: 870px;
+}
+
+.col-third {
+  width: 32%;
+  max-width: 370px;
+}
+
+.col-half {
+  width: 48.5%;
+  max-width: 570px;
+}
+
+@media screen and (max-width: 600px) {
+  .col-half, .col-quat, .col-three-quat, .col-third {
+    max-width: unset;
+    width: 100%;
+  }
+}
+
+.wrapper {
+  @include container;
+  padding: 40px 15px 20px;
+}
+
+.float-right {
+  float: right;
+}
+
+/* end COMMON STYLES
+*/ 

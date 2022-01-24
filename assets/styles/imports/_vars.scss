@@ -1,0 +1,43 @@
+// COLORS
+
+$header-background: #1a2233;
+$corp-red: #cc0a34;
+$page-lightgrey: #f3f3f3;
+$border-stroke: #e6e6e6;
+$input-disabled-back: #f7f7f7;
+$input-disabled-border: #d9d9d9;
+
+$main-hover-shadow: 0 2px 5px rgba($color: #1a2840, $alpha: .05),
+                    0 5px 15px rgba($color: #1a2840, $alpha: .2);
+$feat-hover-shadow: 0 0 5px rgba($color: #1a2840, $alpha: .5);
+$listing-ad-shadow: 0 3px 10px rgba(#1a2840, .15);
+
+// TEXT COLORS
+
+$heading-color: #1a2840;
+$main-text-color: #6c7380;
+$main-link-color: $main-text-color;
+$main-link-hover: #bf0a30;
+$search-color: #575c66;
+$search-autocomplete-color: #5f646e;
+$link-disabled: #6c7380;
+$input-disabled: #8a8f99;
+
+
+a {
+  color: $main-link-color;  
+  text-decoration: none;
+  &:hover {
+    color: $main-link-hover;
+  }
+}
+
+
+// SIZES 
+
+$wrap-width: 1024px;
+
+// FONTS
+
+$main-font: 'Roboto';
+$main-family: $main-font, Arial, Helvetica, sans-serif;

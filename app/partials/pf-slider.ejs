@@ -1,0 +1,28 @@
+<section class="pf-slider" id="pf-slider">
+
+    <h2>My works</h2>
+    <div class="slider-wrapper" id="portfolio">
+        <% slides.forEach(function(slide) { %>
+        <div class="slide">
+            <div class="slide-content">
+                <div class="slide-img">
+                    <% if (slide.imgSrc) { %>
+                        <img src="/assets/images/pf/<%= slide.imgSrc %>" alt="<%= slide.title %>">
+                    <% } else if (slide.iframeSrc) { %>
+                        <iframe src="<%= slide.iframeSrc %>" frameborder="0"></iframe>
+                    <% } %>
+                </div>
+
+                <div class="slide-text">
+                    <h3><a href="<%= slide.link %>"><%= slide.title %></a></h3>
+
+                    <% for (var i = 0; i < slide.desc.length; i++) { %>
+                        <p><%- slide.desc[i] %></p>
+                    <% } %>
+                </div>
+            </div>
+        </div>
+        <% }) %>
+    </div>
+</section>
+<!-- /#pf-slider.pf-slider -->

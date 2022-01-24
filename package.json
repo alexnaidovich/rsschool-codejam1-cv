@@ -1,0 +1,38 @@
+{
+  "name": "rsschool-codejam1-cv",
+  "version": "1.0.0",
+  "description": "RS School - CodeJam #1",
+  "author": "Alex Naidocich",
+  "license": "MIT",
+  "homepage": "https://github.com/alexnaidovich/rsschool-codejam1-cv",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --mode development --config webpack.config.dev.js",
+    "build": "webpack -p --progress --mode production --config webpack.config.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://alexnaidovich@github.com/alexnaidovich/rsschool-codejam1-cv"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^4.5.2",
+    "ejs-compiled-loader": "^1.1.0",
+    "flickity": "^2.1.2",
+    "group-css-media-queries-loader": "^2.0.2",
+    "postcss-loader": "^3.0.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "0.1.19",
+    "cross-env": "5.2.0",
+    "css-loader": "1.0.0",
+    "file-loader": "1.1.11",
+    "html-webpack-plugin": "3.2.0",
+    "node-sass": "4.9.2",
+    "sass-loader": "7.0.3",
+    "style-loader": "0.21.0",
+    "url-loader": "1.0.1",
+    "webpack": "4.16.3",
+    "webpack-cli": "3.1.0",
+    "webpack-dev-server": "3.1.5",
+    "webpack-merge": "4.1.3"
+  }
+}

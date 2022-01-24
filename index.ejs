@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= htmlWebpackPlugin.options.title %> | Welcome</title>
+
+    <link rel="stylesheet" href="./assets/styles/index.css">
+</head>
+
+    <%- include app/partials/shared/header %>
+
+    <div class="wrapper">
+        
+        <% var info = htmlWebpackPlugin.options.info %>
+        <%- include app/partials/hero %>
+
+        <% var slides = htmlWebpackPlugin.options.slides %>
+        <%- include app/partials/pf-slider %>
+
+        <%- include app/partials/contacts %>
+
+    </div>
+
+</body>
+</html>

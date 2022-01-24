@@ -1,0 +1,35 @@
+// Libs
+
+@import 'imports/lib/normalize';
+@import 'imports/lib/flex';
+@import 'imports/lib/flickity';
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+// Apply a natural box layout model to all elements
+// but allowing components to change
+// http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+// Variables
+
+@import 'imports/vars';
+@import 'imports/mixins';
+
+
+// Common Styles
+
+@import 'imports/main';
+@import 'imports/header';
+
+// Page Specific Styles
+@import 'imports/pages/index/hero';
+@import 'imports/pages/index/slider';
+@import 'imports/pages/index/contacts';

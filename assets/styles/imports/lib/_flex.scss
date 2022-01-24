@@ -1,0 +1,15 @@
+@mixin flex($justify: flex-start, $align: stretch, $dir: row, $wrap: nowrap) {
+    display: flex;
+    @if $justify != 'n' {
+      justify-content: $justify;
+    }
+    @if $align != 'n' {
+      align-items: $align;
+    }
+    @if $dir != 'n' {
+      flex-direction: $dir;
+    }
+    @if $wrap != 'n' {
+      flex-wrap: $wrap;
+    }  
+  }
