@@ -1,21 +1,21 @@
 module.exports = {
     name: `Alex Naidovich`,
-    age: 29,
+    age: 32,
     skills: {
-        HTML: ['HTML5', 'HTML Templates (EJS)', 'SVG'],
-        CSS: ['CSS FlexBox + CSS Grid Layout (understand block and table layouts, but do not prefer)', 
+        HTML: ['HTML5', 'HTML Templates (EJS, Pug, Marko)', 'SVG', 'LD+JSON', 'OpenGraph'],
+        CSS: ['CSS FlexBox + CSS Grid Layout', 
               'responsive markup (media queries)',
               'CSS3, CSS animation',
               'Sass'],
-        JS: ['ES6+', 'async/await/fetch', 'Node.JS + NPM'],
-        misc: ['Git (working via GUI and VS Code environment)',
+        JS: ['ES6+', 'async/await/fetch', 'Node.JS + NPM', 'Vue.js'],
+        misc: ['Git (working via CLI, GUI and VS Code environment)',
                'Debugging via Chrome DevTools and VS Code environment',
                'B2 English (according to EPAM\'s Examinator test)']
     },
     tools: ['VS Code + Emmet',
-            'Webpack',
+            'Webpack', 'Gulp',
             'Node.js + NPM',
-            'Adobe Photoshop',
+            'Adobe Photoshop', 'Figma',
             'Gravit Designer + Gimp'],
     courses: [
         'TeachMeSkills (HTML, CSS; 2017)',
@@ -24,7 +24,7 @@ module.exports = {
         'Various sources (Habr, Medium, CSS Tricks etc) via Telegram frontend channels I\'m subscribed on'
     ],
     exp: {
-        company: 'WebMarketing, Private Enterprise',
+        company: 'WebMarketing LTD',
         time: 'May 2018 - present'
     }
 }
